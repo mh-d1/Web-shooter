@@ -71,6 +71,8 @@ window.addEventListener('DOMContentLoaded', function(){
     }
 
     function initGame(){
+        console.log("init game called");
+        renderer.domElement.style.border = "2px solid red";
         scene = new THREE.Scene();
         scene.background = new THREE.Color(0x87ceeb);
 
